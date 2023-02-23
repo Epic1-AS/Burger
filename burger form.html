@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function or3()
+            {
+             var a=document.getElementById("c45").value
+             if(a>=1 && a<=100)
+            {
+                alert("WElComE")
+                f940.disabled=false
+            }
+            else
+            {
+                alert("EnTEr ThE VAlId NuMbeR")
+                f940.disabled=true
+            }
+            }
+        </script>
+    </head>
+    <body style=" background-size:100%; color: white; background-repeat: no-repeat; background-image:url(https://images3.alphacoders.com/215/21575.jpg);">
+        <center>
+            <form style="margin-top:200px; font-size:25px; font-family: 'Trebuchet MS';" action="project borger.html" target="_blank" method="post">
+                   <input type="text" name="in1" placeholder="Name" style="width:300px;"> <br>
+            Gender:  <input type="radio" name="in2" > Male <input type="radio" name="in2"> FeMale <br>
+            Age:   <Select name="sele1" style="width:250px;"> <br>
+                 <option> 10-25</option> 
+                 <option> 26-50</option> 
+                 <option> 51-65</option> 
+                 <option> 66 or above</option> 
+                </Select><br>
+            <input type="email" name="in3" placeholder="E-Mail" style="width:300px;"><br>
+            <input type="password" name="pass" placeholder="Password" style="width:300px;"><br>
+             <input type="number" name="1O0" id="c45" placeholder="Number 1-100" style="width:300px;"><br>
+            <button type="button" onclick="or3()"> Check </button>
+            <input type="submit" disabled id="f940">
+            </form>
+        </center>
+    </body>
+</html>
